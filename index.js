@@ -8,7 +8,7 @@ btnAjout.addEventListener('click', function ajout(e){
     e.defaultPrevented
 
     if(inputTxt.value === ''){
-        message.innerHTML = alert('remplissez tout le champs')
+        message.innerHTML = alert('remplissez le champs')
     }
 
     else{
