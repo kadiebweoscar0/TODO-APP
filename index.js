@@ -16,7 +16,7 @@ btnAjout.addEventListener('click', function ajout(e){
         listcontent.appendChild(li)
         li.innerHTML = inputElement.value
         spanButton = document.createElement('span');
-        spanButton.innerHTML = "\ud83d\uddd1";
+        spanButton.innerHTML = "delete";
         spanButton.setAttribute("id", "spanBtn")
         const checkBx = document.createElement("input");
         checkBx.setAttribute("type", "checkbox");

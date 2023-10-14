@@ -46,6 +46,7 @@ p{
 }
 
 #listcontent li{
+    width: 100%;
     cursor: pointer;
     border: 1px solid #000;
     padding: 1rem;
@@ -73,10 +74,12 @@ button{
 }
 
 #listcontent li span{
-    margin-left: 26rem;
+    margin-left: 30%;
     background-color:crimson;
     border-radius: 5px;
     padding: 0.50rem;
+    font-size: 1rem;
+    color: #fff;
    
     
 }
