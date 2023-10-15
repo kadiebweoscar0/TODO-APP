@@ -8,7 +8,7 @@ btnAjout.addEventListener('click', function ajout(e){
     e.defaultPrevented
 
     if(inputElement.value === ''){
-        message.innerHTML = alert('remplissez le champs')
+        alert('remplissez le champs');
     }
 
     else{
@@ -31,8 +31,14 @@ listcontent.addEventListener("click", (e)=>{
     if (e.target.tagName === 'SPAN') {
         // Sélectionnez l'élément <li> parent correspondant
         const listItem = e.target.parentElement;
+        listItem.style.color= "#fff"
+        listItem.style.backgroundColor = "rgba(197, 30, 64, 0.664)";
         
+
         // Supprimez l'élément <li> du DOM
-        listItem.remove();
+        setTimeout(()=>{
+            listItem.remove();
+        },300);
+        
     }
  }) 

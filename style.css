@@ -73,6 +73,7 @@ button{
     background-color: rgb(27, 27, 209);
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 
 #listcontent li span{
